@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = './.cache'
 requirements = []
+[contracts.informed-consent]
+path = 'contracts/informed-consent.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.multi-site-coordination]
 path = 'contracts/multi-site-coordination.clar'
 clarity_version = 2

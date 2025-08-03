@@ -50,8 +50,13 @@ plan:
     - id: 0
       transactions:
         - emulated-contract-publish:
-            contract-name: adverse-events
+            contract-name: informed-consent
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
-            path: contracts/adverse-events.clar
+            path: contracts/informed-consent.clar
+            clarity-version: 2
+        - emulated-contract-publish:
+            contract-name: multi-site-coordination
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/multi-site-coordination.clar
             clarity-version: 2
       epoch: "2.5"
